@@ -1,0 +1,38 @@
+<?php
+
+return [
+	'Article Detail'=>'Article Detail',
+	'Keyword'=>'Keyword',
+	'Source'=>'Source',
+	'Share'=>'Share',
+	'Comment'=>'Comment',
+	'Leave a Comment'=>'Leave a Comment',
+	'Value'=>'Value',
+	'Send Comment'=>'Send Comment',
+	'Reply'=>'Reply',
+	'Add New'=>'Add New',
+	'Fill in the comment'=>'Fill in the comment',
+	'Article Page'=>'Article Page',
+
+	'Sorry'=>'Sorry',
+	'The article page is being repaired'=>'The article page is being repaired',	
+	'See another article'=>'See another article',
+	'Jobs'=>'Jobs',
+	'Privacy'=>'Privacy',
+	'Terms'=>'Terms',
+	'Help Center'=>'Help Center',
+	'Aboutme'=>'Aboutme',	
+	'Post Article'=>'Post Article',
+	'Read More'=>'Read More',
+	'Featured'=>'Featured',
+	'x is read'=>'x is read',
+	'Popular article'=>'Popular article',
+	'All Stories'=>'All Stories',
+	'Publishing your article or writing your business statement?'=>'Publishing your article or writing your business statement?',
+	'Job Vacancy'=>'Job Vacancy',
+	'Article'=>'Article',
+	'Search'=>'Search',
+	'Article Search'=>'Article Search',
+	'Enter keywords'=>'Enter keywords',	
+
+];

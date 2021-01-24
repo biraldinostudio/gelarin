@@ -1,0 +1,50 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+color:#99abb9; /*Warna dataplaceholder*/
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:#99abb9; /*Warna dataplaceholder*/
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+color:#99abb9; /*Warna dataplaceholder*/
+}
+
+.select2-container .select2-selection--multiple {
+	box-sizing: border-box;
+	cursor: pointer;
+	display: block;
+	user-select: none;
+	font-size:15px;
+	color:#445461;
+	-webkit-user-select: none
+}
+
+.select2-container .select2-selection--multiple .select2-selection__rendered {
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+
+
+.select2-container--default .select2-selection--multiple {
+	background-color: #fbfdff; /*warna background select multiple*/
+	border: 1px solid #e3e5ea; /*Warna border select multiple*/
+	border-radius: 0;
+	cursor: text
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+	box-sizing: border-box;
+	list-style: none;
+	margin-top:5px;
+	width: 100%
+}
+
+.select2-search--dropdown .select2-search__field {
+    background: url(../img/search.png)right 8px top 14px no-repeat #fff;
+    padding-right: 30px;
+}

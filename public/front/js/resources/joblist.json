@@ -1,0 +1,14 @@
+[ 
+	{"name": "Web Designer", "code": "WD"}, 
+	{"name": "Web Developer", "code": "WDE"}, 
+	{"name": "Php Developer", "code": "PHP"}, 
+	{"name": "Database", "code": "DB"},
+	{"name": "Java Developer", "code": "JV"},
+	{"name": "Magento", "code": "Magento"},
+	{"name": "Css", "code": "CSS"},
+	{"name": "HTML5", "code": "HTML"},  
+	{"name": "Sass Developer", "code": "Sass"},
+	{"name": "Ruby Developer", "code": "RB"},
+	{"name": "Python", "code": "PY"},
+	{"name": "Shopify", "code": "Shopify"}
+ ]

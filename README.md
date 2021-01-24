@@ -26,6 +26,16 @@ Source code for training on creating job portals using the [Laravel Framework (v
 - Receive and send messages with the Company
 - Post articles
 
+## The laravel feature used:
+- Migration
+- Seeding
+- Queue
+- Middleware
+- ORM Eloquent
+- Query Builder
+- Localization
+- etc
+
 ## Social Media
 [LinkedIn,](https://www.linkedin.com/in/biraldino-studio-ab503a1bb/)
 [Facebook,](https://www.facebook.com/biraldinostudio/)

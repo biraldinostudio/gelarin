@@ -1,1 +1,0 @@
-			<footer class="footer"> ©Copyright {{ date('Y') }} {{ config('app.name', 'Gelarin') }} </footer>

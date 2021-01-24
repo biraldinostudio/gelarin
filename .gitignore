@@ -3,7 +3,6 @@
 /public/storage
 /storage/*.key
 /storage/framework/cache/data
-/vendor
 /.idea
 /.vscode
 /.vagrant

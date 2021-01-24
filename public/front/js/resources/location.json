@@ -1,0 +1,15 @@
+[ 
+	{"name": "Chicago", "code": "CH"}, 
+	{"name": "Aland Islands", "code": "AX"}, 
+	{"name": "Australia", "code": "AU"}, 
+	{"name": "America", "code": "USA"},
+	{"name": "United Kingdom", "code": "UK"},
+	{"name": "New Zeland", "code": "NZ"},
+	{"name": "South Africa", "code": "SA"},
+	{"name": "BR", "code": "Barlin"},  
+	{"name": "India", "code": "In"},
+	{"name": "China", "code": "CH"},
+	{"name": "Canada", "code": "CA"},
+	{"name": "Itli", "code": "Itli"},
+	{"name": "Frans", "code": "FR"}
+ ]

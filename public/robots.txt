@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+Disallow: /backstart/
+Disallow: /admin/
+Disallow: /front/
+Disallow: /resources/views/admin/

@@ -1,0 +1,28 @@
+select
+k.name,a.user_id,a.title,a.description,a.tags,a.start_date,a.closing_date,a.years_experience,
+a.max_age,a.min_salary,a.max_salary,a.negotiation,a.application_url,a.active
+from vacancies as a left outer join categories as b on(a.category_id=b.translation_of)
+LEFT OUTER JOIN cities as c on(a.city_id=c.id)
+LEFT OUTER JOIN vacancy_types as d on(a.vacancy_type_id=d.translation_of)
+LEFT OUTER JOIN vacancy_levels as e on(a.vacancy_level_id=e.translation_of)
+LEFT OUTER JOIN salary_types as f on(a.salary_type_id=f.translation_of)
+LEFT OUTER JOIN genders as g on(a.gender_id=g.translation_of)
+LEFT OUTER JOIN users as h on(a.user_id=h.id)
+LEFT OUTER JOIN user_descriptions as i on(a.user_id=i.user_id)
+LEFT OUTER JOIN company_officers as j on(a.user_id=j.user_id)
+LEFT OUTER JOIN companies as k on(j.company_id=k.id)
+WHERE h.id=i.user_id and h.id=j.user_id and i.user_id=j.user_id
+GROUP BY a.user_id,a.title,a.description,a.tags,a.start_date,a.closing_date,a.years_experience,
+a.max_age,a.min_salary,a.max_salary,a.negotiation,a.application_url,a.active
+
+
+select
+a.id,a.title,a.active,a.reviewed,a.city_id,a.closing_date,i.company_id 
+from vacancies as a left outer join categories as b on(a.category_id=b.translation_of)
+LEFT OUTER JOIN cities as c on(a.city_id=c.id)
+LEFT OUTER JOIN users as d on(a.user_id=d.id)
+LEFT OUTER JOIN user_descriptions as h on(a.user_id=h.user_id)
+LEFT OUTER JOIN company_officers as i on(a.user_id=i.user_id)
+LEFT OUTER JOIN companies as j on(i.company_id=j.id)
+WHERE d.id=h.user_id and d.id=i.user_id
+GROUP BY a.id,a.title,a.active,a.reviewed,a.city_id,a.closing_date,i.company_id 

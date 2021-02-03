@@ -2,7 +2,7 @@
 
 ## Source Code:
 
-Source code for training on creating job portals using the [Laravel Framework (version 6)](https://laravel.com/) and [PostgreSQL Database](https://www.postgresql.org/) by [Biraldino Studio](https://www.youtube.com/c/BiraldinoStudio)
+Source code for training on creating job portals using the [Laravel Framework (version 6)](https://laravel.com/) and [PostgreSQL Database](https://www.postgresql.org/) by [Biraldino Studio](https://www.youtube.com/c/[BiraldinoStudio]?sub_confirmation=1)
 
 ## Entities at this source:
 - Company
